@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
-class Card extends Component {
+class CardInput extends Component {
   // Toggles complete
   myChangeHandler = (event) => {
     let nam = event.target.name;
@@ -33,5 +33,5 @@ class Card extends Component {
   }
 }
 
-export default Card;
+export default CardInput;
 
